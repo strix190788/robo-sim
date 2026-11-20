@@ -25,11 +25,14 @@ setup(
     entry_points={
         'console_scripts': [
             'hello = my_nodes.hello:main',
+            'countdown = my_nodes.countdown:main',
             'talker = my_nodes.talker:main',
             'listener = my_nodes.listener:main',
+            'fake_sensor = my_nodes.fake_sensor:main',
             'battery_guard = my_nodes.battery_guard:main',
             'trip_meter = my_nodes.trip_meter:main',
             'gyro_yaw = my_nodes.gyro_yaw:main',
+            'geometry_monitor = my_nodes.geometry_monitor:main',
         ],
     },
 )
