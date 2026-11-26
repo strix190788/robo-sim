@@ -1,3 +1,4 @@
 build/
 install/
 log/
+packages\my_nodes\my_nodes\__pycache__/
