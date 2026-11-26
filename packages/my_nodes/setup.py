@@ -34,6 +34,7 @@ setup(
             'gyro_yaw = my_nodes.gyro_yaw:main',
             'geometry_monitor = my_nodes.geometry_monitor:main',
             'wheel_odometry = my_nodes.wheel_odometry:main',
+            'odom_error = my_nodes.odom_error:main',
         ],
     },
 )
